@@ -1,0 +1,62 @@
+body {
+  background-color: #e4e7e3; /* Light gray background color */
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.card-header {
+  background-color: #007bff; /* Blue header color */
+  color: #fff; /* White text */
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Style form labels */
+label {
+  font-weight: bold;
+}
+
+/* Style form inputs */
+.form-control {
+  border-radius: 5px;
+}
+
+/* Style the update button */
+.btn-primary {
+  background-color: #28a745; /* Green button color */
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+/* Error message styling */
+.error {
+  color: #dc3545; /* Red error color */
+  font-weight: bold;
+}
+
+/* Responsive styling for small screens */
+@media (max-width: 768px) {
+  .card {
+    margin-top: 20px;
+  }
+}
